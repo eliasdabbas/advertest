@@ -2,7 +2,6 @@
 advertest
 =========
 
-
 .. image:: https://img.shields.io/pypi/v/advertest.svg
         :target: https://pypi.python.org/pypi/advertest
 
