@@ -4,7 +4,7 @@
 
 __author__ = """Elias Dabbas"""
 __email__ = 'eliasdabbas@gmail.com'
-__version__ = '0.1.0'
+__version__ = '1.0.0'
 
 from advertest.ad_create import ad_create
 from advertest.ad_from_string import ad_from_string
