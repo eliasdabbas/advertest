@@ -77,7 +77,7 @@ def kw_generate(products, words, max_len=3, match_types=['Exact', 'Phrase', 'Mod
 
 def kw_broad(words):
     regex = '^\'|^\"|\'$|\"$|\+|^\[|\]$|^-'
-    return [re.sub(regex, '',  ''  + x) for x in words]
+    return [re.sub(regex, '', x) for x in words]
 
 def kw_exact(words):
     return ['[' + w + ']' for w in kw_broad(words)]
