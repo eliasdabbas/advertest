@@ -35,7 +35,7 @@ def ad_from_string(s, slots=(30, 30, 80, 15, 15), sep=None, capitalize=False):
 
     for i, slot in enumerate(slots):
         while counter <= len(str_words) - 1:
-            if len(text_ad[i] + str_words[counter]) > slot:
+            if len(text_ad[i] + str_words[counter]) + 1 > slot:
                 break
             text_ad[i] += ' ' + str_words[counter] if text_ad[i] else str_words[counter]
             counter += 1
