@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Stopwords from the nltk package
 
