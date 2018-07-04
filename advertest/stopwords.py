@@ -1,22 +1,26 @@
-# stopwords from the nltk package
-# Bird, Steven, Edward Loper and Ewan Klein (2009).
-# Natural Language Processing with Python.  O'Reilly Media Inc.
-
 """
+Stopwords from the nltk package
+
+Bird, Steven, Edward Loper and Ewan Klein (2009).
+Natural Language Processing with Python.  O'Reilly Media Inc.
+
 List of stopwords useful in text mining, analyzing content of tweets, web
 pages, keywords, etc.
 
 Each list is accessible as part of a dictionary `stopwords` which is a normal
 Python dictionary.
 
-Examples
---------
-
 >>> import advertools as adv
 >>> adv.stopwords['english'][:5]
 ['i', 'me', 'my', 'myself', 'we']
+
 >>> adv.stopwords['german'][:5]
 ['aber', 'alle', 'allem', 'allen', 'aller']
+
+>>> adv.stopwords.keys()
+dict_keys(['arabic', 'azerbaijani', 'danish', 'dutch', 'english', 'finnish', 'french', 
+'german', 'greek', 'hungarian', 'italian', 'kazakh', 'nepali', 'norwegian', 'portuguese', 
+'romanian', 'russian', 'spanish', 'swedish', 'turkish'])
 """
 
 
@@ -2433,117 +2437,61 @@ stopwords = {
         'бірге',
         'қоса',
         'арс',
-        '',
         'гүрс',
-        '',
         'дүрс',
-        '',
         'қорс',
-        '',
         'тарс',
-        '',
         'тырс',
-        '',
         'ырс',
-        '',
         'барқ',
-        '',
         'борт',
-        '',
         'күрт',
-        '',
         'кірт',
-        '',
         'морт',
-        '',
         'сарт',
-        '',
         'шырт',
-        '',
         'дүңк',
-        '',
         'күңк',
-        '',
         'қыңқ',
-        '',
         'мыңқ',
-        '',
         'маңқ',
-        '',
         'саңқ',
-        '',
         'шаңқ',
-        '',
         'шіңк',
-        '',
         'сыңқ',
-        '',
         'таңқ',
-        '',
         'тыңқ',
-        '',
         'ыңқ',
-        '',
         'болп',
-        '',
         'былп',
-        '',
         'жалп',
-        '',
         'желп',
-        '',
         'қолп',
-        '',
         'ірк',
-        '',
         'ырқ',
-        '',
         'сарт-сұрт',
-        '',
         'тарс-тұрс',
-        '',
         'арс-ұрс',
-        '',
         'жалт-жалт',
-        '',
         'жалт-жұлт',
-        '',
         'қалт-қалт',
-        '',
         'қалт-құлт',
-        '',
         'қаңқ-қаңқ',
-        '',
         'қаңқ-құңқ',
-        '',
         'шаңқ-шаңқ',
-        '',
         'шаңқ-шұңқ',
-        '',
         'арбаң-арбаң',
-        '',
         'бүгжең-бүгжең',
-        '',
         'арсалаң-арсалаң',
-        '',
         'ербелең-ербелең',
-        '',
         'батыр-бұтыр',
-        '',
         'далаң-далаң',
-        '',
         'тарбаң-тарбаң',
-        '',
         'қызараң-қызараң',
-        '',
         'қаңғыр-күңгір',
-        '',
         'қайқаң-құйқаң',
-        '',
         'митың-митың',
-        '',
         'салаң-сұлаң',
-        '',
         'ыржың-тыржың',
         'бірақ',
         'алайда',
